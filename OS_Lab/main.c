@@ -8,9 +8,9 @@
 #include <aio.h>
 
 #define BUFFLEN 1048576
-
-int kp_test_open(const char *name)
-int kp_test_close(int fd)
+dsfgsdgrdgs
+int kp_test_open(const char *name);
+int kp_test_close(int fd);
 int kp_test_aio_read_start(const int d, struct aiocb *aiorp, void *buf, const int count);
 int kp_test_dummy(const void *data, int n);
 int kp_test_aio_read_waitcomplete(struct aiocb *aiorp);
