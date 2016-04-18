@@ -9,7 +9,6 @@
 
 #define BUFFLEN 1048576
 
-failing
 
 int kp_test_open(const char *name);
 int kp_test_close(int fd);
