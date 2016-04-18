@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -75,7 +75,7 @@ int main(int argc, char * argv[]) {
 	int d;
 	struct aiocb aior;
 	char buffer[BUFFLEN];
-	printf("(C) 2013 kestutis Paulikas, %s\n", __FILE__);
+	printf("(C) 2016 Jurgis Gečys, %s\n", __FILE__);
 	d = kp_test_open("/dev/urandom");
 	kp_test_aio_read_start(d, &aior, buffer, sizeof(buffer));
 	kp_test_dummy(buffer, sizeof(buffer));
